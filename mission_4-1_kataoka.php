@@ -9,9 +9,9 @@
 	<body>
 	<?php
 		//db接続
-		$dsn='mysql:dbname=tt_633_99sv_coco_com;host=localhost';
-		$user='tt-633.99sv-coco';
-		$password='t3RJ5Svc';
+		$dsn='データベース名';
+		$user='名前';
+		$password='パスワード';
 		$pdo=new PDO($dsn,$user,$password,array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_WARNING));
 		
 		//テーブル作成mission4
